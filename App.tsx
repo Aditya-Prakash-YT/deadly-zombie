@@ -180,6 +180,7 @@ const App: React.FC = () => {
             paused={paused} 
             gravityViz={gravityViz}
             onBodyClick={setSelectedBody}
+            selectedBody={selectedBody}
           />
       </div>
 
@@ -366,7 +367,8 @@ const App: React.FC = () => {
       {/* Modals */}
       {showTextureEditor && selectedBody && (
           <TextureEditor 
-            body={selectedBody} 
+            body={selectedBody}
+            allBodies={bodies} 
             onClose={() => setShowTextureEditor(false)} 
             onUpdateTexture={handleTextureUpdate} 
           />
