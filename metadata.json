@@ -1,0 +1,5 @@
+{
+  "name": "Cosmos Architect",
+  "description": "A 3D interactive solar system simulator powered by Gemini. Visualize gravity, spawn celestial bodies, and use AI to customize planet textures and learn about the universe.",
+  "requestFramePermissions": []
+}
